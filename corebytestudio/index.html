@@ -1,272 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
+<section>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <h2 class="section-title">Applications</h2>
 
-  <title>CoreByteStudio</title>
+  <div class="apps-grid">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <div class="app-card">
 
-  <style>
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background: #0b0f19;
-      color: #ffffff;
-      font-family: Arial, sans-serif;
-      overflow-x: hidden;
-    }
-
-    .background-glow {
-      position: fixed;
-      width: 700px;
-      height: 700px;
-      background: radial-gradient(circle, rgba(0,122,255,0.18) 0%, transparent 70%);
-      top: -250px;
-      right: -200px;
-      z-index: -1;
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 60px 24px;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 90px 20px 70px;
-    }
-
-    .hero h1 {
-      font-size: 68px;
-      font-weight: 700;
-      letter-spacing: -2px;
-      margin-bottom: 20px;
-    }
-
-    .hero p {
-      max-width: 760px;
-      margin: auto;
-      font-size: 20px;
-      line-height: 1.8;
-      color: #b8c1d1;
-    }
-
-    .section-title {
-      font-size: 34px;
-      margin-bottom: 30px;
-      letter-spacing: -1px;
-    }
-
-    .apps-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 25px;
-      margin-top: 30px;
-    }
-
-    .app-card {
-      background: linear-gradient(180deg, #151b28 0%, #101521 100%);
-      border: 1px solid rgba(255,255,255,0.06);
-      border-radius: 22px;
-      padding: 30px;
-      transition: 0.3s ease;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-    }
-
-    .app-card:hover {
-      transform: translateY(-6px);
-      border-color: rgba(77,163,255,0.4);
-    }
-
-    .app-card h3 {
-      font-size: 28px;
-      margin-bottom: 15px;
-    }
-
-    .app-card p {
-      color: #b4bfd1;
-      line-height: 1.7;
-      margin-bottom: 20px;
-    }
-
-    .tags {
-      margin-bottom: 22px;
-    }
-
-    .tag {
-      display: inline-block;
-      padding: 7px 14px;
-      margin: 5px;
-      border-radius: 999px;
-      background: rgba(77,163,255,0.12);
-      color: #7fc1ff;
-      font-size: 13px;
-      border: 1px solid rgba(77,163,255,0.18);
-    }
-
-    .feature-list {
-      list-style: none;
-    }
-
-    .feature-list li {
-      margin-bottom: 12px;
-      color: #d5dbe6;
-    }
-
-    .feature-list li::before {
-      content: "• ";
-      color: #4da3ff;
-    }
-
-    .contact-section {
-      margin-top: 90px;
-      background: linear-gradient(180deg, #121826 0%, #0f1420 100%);
-      border-radius: 24px;
-      padding: 40px;
-      border: 1px solid rgba(255,255,255,0.06);
-    }
-
-    .contact-section h2 {
-      font-size: 32px;
-      margin-bottom: 18px;
-    }
-
-    .contact-section p {
-      color: #b7c0d1;
-      line-height: 1.8;
-      margin-bottom: 20px;
-    }
-
-    .email-box {
-      display: inline-block;
-      background: rgba(77,163,255,0.12);
-      border: 1px solid rgba(77,163,255,0.25);
-      padding: 14px 22px;
-      border-radius: 14px;
-      font-size: 16px;
-    }
-
-    .email-box a {
-      color: #7fc1ff;
-      text-decoration: none;
-    }
-
-    .footer {
-      margin-top: 90px;
-      text-align: center;
-      color: #7d8798;
-      font-size: 14px;
-      padding-bottom: 20px;
-    }
-
-    @media (max-width: 768px) {
-
-      .hero h1 {
-        font-size: 48px;
-      }
-
-      .hero p {
-        font-size: 18px;
-      }
-
-      .section-title {
-        font-size: 28px;
-      }
-
-    }
-
-  </style>
-</head>
-
-<body>
-
-  <div class="background-glow"></div>
-
-  <div class="container">
-
-    <section class="hero">
-
-      <h1>CoreByteStudio</h1>
+      <h3>StitchView Pro</h3>
 
       <p>
-        Independent software studio focused on professional Android applications,
-        utility tools, and specialized mobile experiences designed with performance,
-        simplicity, and precision in mind.
+        Professional embroidery design viewer for Android with optimized
+        rendering performance and support for multiple embroidery formats.
       </p>
 
-    </section>
-
-    <section>
-
-      <h2 class="section-title">Applications</h2>
-
-      <div class="apps-grid">
-
-        <div class="app-card">
-
-          <h3>StitchView Pro</h3>
-
-          <p>
-            Professional embroidery design viewer for Android with optimized
-            rendering performance and support for multiple embroidery formats.
-          </p>
-
-          <div class="tags">
-            <span class="tag">DST</span>
-            <span class="tag">PES</span>
-            <span class="tag">JEF</span>
-            <span class="tag">VP3</span>
-            <span class="tag">EXP</span>
-            <span class="tag">XXX</span>
-          </div>
-
-          <ul class="feature-list">
-            <li>Fast embroidery preview</li>
-            <li>Smooth zoom and navigation</li>
-            <li>Professional stitch rendering</li>
-            <li>Offline workflow support</li>
-            <li>Modern Android experience</li>
-          </ul>
-
-        </div>
-
+      <div class="tags">
+        <span class="tag">DST</span>
+        <span class="tag">PES</span>
+        <span class="tag">JEF</span>
+        <span class="tag">VP3</span>
+        <span class="tag">EXP</span>
+        <span class="tag">XXX</span>
       </div>
 
-    </section>
+      <ul class="feature-list">
+        <li>Fast embroidery preview</li>
+        <li>Smooth zoom and navigation</li>
+        <li>Professional stitch rendering</li>
+        <li>Offline workflow support</li>
+        <li>Modern Android experience</li>
+      </ul>
 
-    <section class="contact-section">
+    </div>
 
-      <h2>Contact</h2>
+    <div class="app-card">
+
+      <h3>PassCheck</h3>
 
       <p>
-        For support, business inquiries, partnerships, or application-related
-        questions, feel free to contact CoreByteStudio directly.
+        Android security utility focused on password strength analysis,
+        security verification, and credential protection awareness.
       </p>
 
-      <div class="email-box">
-        <a href="mailto:studiocorebyte@gmail.com">
-          studiocorebyte@gmail.com
-        </a>
+      <div class="tags">
+        <span class="tag">Security</span>
+        <span class="tag">Passwords</span>
+        <span class="tag">Protection</span>
       </div>
 
-    </section>
+      <ul class="feature-list">
+        <li>Password security analysis</li>
+        <li>Modern Android interface</li>
+        <li>Lightweight and fast</li>
+        <li>Security-focused design</li>
+      </ul>
 
-    <div class="footer">
-      © 2026 CoreByteStudio — Dominican Republic
+    </div>
+
+    <div class="app-card">
+
+      <h3>Stack Rush</h3>
+
+      <p>
+        Precision arcade experience designed around timing, reflexes,
+        and competitive score progression gameplay.
+      </p>
+
+      <div class="tags">
+        <span class="tag">Arcade</span>
+        <span class="tag">Precision</span>
+        <span class="tag">Casual</span>
+      </div>
+
+      <ul class="feature-list">
+        <li>Fast-paced gameplay</li>
+        <li>Precision mechanics</li>
+        <li>Score progression system</li>
+        <li>Optimized mobile performance</li>
+      </ul>
+
+    </div>
+
+    <div class="app-card">
+
+      <h3>Radio Amanecer</h3>
+
+      <p>
+        Mobile radio streaming application providing accessible digital
+        broadcasting and inspirational audio content.
+      </p>
+
+      <div class="tags">
+        <span class="tag">Radio</span>
+        <span class="tag">Streaming</span>
+        <span class="tag">Audio</span>
+      </div>
+
+      <ul class="feature-list">
+        <li>Online radio streaming</li>
+        <li>Simple listening experience</li>
+        <li>Mobile optimized playback</li>
+        <li>Accessible interface</li>
+      </ul>
+
     </div>
 
   </div>
 
-</body>
-
-</html>
+</section>
